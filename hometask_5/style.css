@@ -1,0 +1,15 @@
+input {
+  background: #337038;
+  color: #3221a0;
+}
+.gray-input {
+  background: gray;
+  color: #4c0080;
+}
+.yellow-input {
+  background: yellow;
+  color: #055680;
+}
+#comment {
+  color: red;
+}

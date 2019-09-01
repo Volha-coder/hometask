@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма заказа</title>
+  <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body>
+<form action="http://fe.it-academy.by/TestForm.php" method="POST">
+  <fieldset>
+    <legend>Персональные данные</legend>
+    Логин:<br />​
+    <input class="gray-input"
+           type="text"
+           name="username"
+           maxlength="12"
+           pattern="[a-zA-Z]+$"
+           title="English alphabet characters"
+           required /><br>​
+    Пароль:<br />​
+    <input class="gray-input"
+           type="password"
+           name="psw"
+           pattern="[a-zA-Z0-9]{7}"
+           title="Password must consist of 7 English characters and / or numbers"
+           required />​<br/><br/>
+    <hr />
+
+    E-mail:​
+    <input class="yellow-input" type="email" name="email" />
+    ​<br />
+    Телефон:​
+    <input class="yellow-input"
+           type="tel"
+           name="phone"
+           pattern="\+\([0-9]{3}\)-[0-9]{2}-[0-9]{7}"
+           title="Format: +(xxx)-xx-xxxxxxx"
+           placeholder="+(xxx)-xx-xxxxxxx"
+           required />
+    ​<br/>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Информация о заказе</legend>
+    Форма доставки:
+    <input type="radio" checked name="delivery" value="1"/>Курьером
+    <input type="radio" name="delivery" value="2"/>Самовывоз
+  <br />
+  <hr />
+    <input type="checkbox"
+           id="hamburger"
+           name="kind1"
+           value="hamburger" /><label for="hamburger">Гамбургер</label>
+
+    <input type="checkbox"
+           id="french fries"
+           name="kind2"
+           value="french fries" /><label for="french fries">Картофель фри</label>
+
+    <input type="checkbox"
+           id="cheeseburger"
+           name="kind3"
+           value="cheeseburger"><label for="cheeseburger" />Чизбургер</label>
+
+    <input type="checkbox"
+           id="cola"
+           name="kind4"
+           value="cola" /><label for="cola">Кола</label>
+  <br />​ <br />​
+    Комментарий к заказу:<br />
+    <textarea id="comment"
+      cols="60"
+      rows="5"
+      name="comment"></textarea>
+  </fieldset>
+  <br/>
+  <input type="submit" formtarget="_blank"/>
+  <input type="reset" value="Очистить форму"/>
+</form>
+</body>
+</html>
