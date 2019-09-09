@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap');
+
+body {
+  background: url("../images/patternhead.jpg") fixed no-repeat;
+}
+.decorated-1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  color: #325029;
+  text-decoration: underline;
+  }
+
+.decorated-2 {
+  font-family: "Caveat", cursive;;
+  text-align: justify-all;
+  font-size: 2rem;
+  text-indent: 30px;
+  margin: 10px;
+}
