@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap');
-
 body {
   background: url("../images/patternhead.jpg") fixed no-repeat;
+  margin: 15px;
 }
 .decorated-1 {
   font-family: "Pacifico", cursive;
