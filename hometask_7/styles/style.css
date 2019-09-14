@@ -1,0 +1,67 @@
+body {
+  background: url("../../hometask_7/images/ava7patterns_pattern_972.png") fixed;
+  margin: 15px;
+}
+
+.decorated-1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  color: #325029;
+  text-decoration: underline;
+}
+
+.decorated-2 {
+  font-family: "Caveat", cursive;;
+  font-size: 2rem;
+  text-indent: 30px;
+  margin: 10px;
+}
+
+.block {
+  position: absolute;
+  right: 500px;
+}
+
+.block-1 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 300px;
+  width: 470px;
+  padding: 30px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.block-1 p {
+  position: relative;
+  top: 300px;
+}
+
+.block-1:hover {
+  height: 400px;
+  overflow: visible;
+}
+
+.image-link {
+  display: inline-block;
+  width: 90px;
+  height: 88px;
+  background: url("../images/sprite.png") 0 0 no-repeat;
+}
+
+.fb {
+  background-position: -247px 0px;
+}
+
+.tw {
+  background-position: -369px 0px;
+}
+
+.tm {
+  background-position: -247px -368px;
+}
+
+.inst {
+  background-position: -611px 0px;
+}
