@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="style/style.css" rel="stylesheet">
+  <title>Трехколоночный резиновый макет сайта</title>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">Hello:)</div>
+   <nav>
+    <ul>
+      <li><a href="#">Главная</a> </li>
+      <li><a href="#">Уроки</a> </li>
+      <li><a href="#">Статьи</a> </li>
+      <li><a href="#">Об авторе</a> </li>
+    </ul>
+  </nav>
+    <form name="search_form" action="#" method="get">
+      <input type="text" name="q" placeholder="Поиск" required="required">
+    </form>
+  </header>
+  <section id="content">
+    <aside>
+      <nav>
+        <h3>Меню</h3>
+
+        <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">PHP</a></li>
+          <li><a href="#">MySQL</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <h1>Трехколоночный резиновый макет сайта</h1>
+       <div class="code">
+        <code>
+          <span class="c_6">&lt;html&gt;</span><br />
+          <span class="c_6">&lt;head&gt;</span><br />
+          &nbsp;<span class="c_6">&lt;title&gt;</span><span class="c_3">Трехколоночный резиновый макет</span><span class="c_6">&lt;/title&gt;</span><br />
+          &nbsp;<span class="c_6">&lt;link</span> <span class="c_4">rel</span><span class="c_4">=&quot;stylesheet&quot;</span> <span class="c_6">href</span><span class="c_4">=&quot;css/styles.css&quot;</span> <span class="c_6">type</span><span class="c_4">=&quot;text/css&quot;</span> <span class="c_6">/&gt;</span><br />
+          <span class="c_6">&lt;/head&gt;</span><br />
+          <span class="c_6">&lt;body&gt;</span><br />
+          &nbsp;&nbsp;<span class="c_6">&lt;div <span class="c_4">id</span><span class="c_1">=&quot;container&quot;</span><span class="c_6">&gt;</span></span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;div <span class="c_4">class</span><span class="c_1">=&quot;head&quot;</span>&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;h1&gt;</span><span class="c_3">Шапка</span><span class="c_6">&lt;/h1&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;/div&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;div <span class="c_4">class</span><span class="c_1">=&quot;left-sidebar&quot;</span>&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;p&gt;</span><span class="c_3">Левый сайдбар</span><span class="c_6">&lt;/p&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;/div&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;div <span class="c_4">class</span><span class="c_1">=&quot;right-sidebar&quot;</span>&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;p&gt;</span><span class="c_3">Правый сайдбар</span><span class="c_6">&lt;/p&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;/div&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;div <span class="c_4">class</span><span class="c_1">=&quot;content&quot;</span>&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;p&gt;</span><span class="c_3">Область для контента</span><span class="c_6">&lt;/p&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;/div&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;div <span class="c_4">class</span><span class="c_1">=&quot;footer&quot;</span>&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;h2&gt;</span><span class="c_3">Футер</span><span class="c_6">&lt;/h2&gt;</span><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="c_6">&lt;/div&gt;</span><br />
+          &nbsp;&nbsp;<span class="c_6">&lt;/div&gt;</span><br />
+          <span class="c_6">&lt;/body&gt;</span><br />
+          <span class="c_6">&lt;/html&gt;</span><br />
+        </code>
+      </div>
+    </p>
+    </main>
+    <aside>
+      <div class="form_auth">
+        <p>Авторизация:</p>
+        <form name="form_reg" action="#" method="post">
+          <div class="login">
+            <label>Логин:</label>
+            <input type="text" name="login" placeholder="Введите ваш логин" required="required">
+          </div>
+          <div class="password">
+            <label>Пароль:</label>
+            <input type="password" name="pass" placeholder="Введите ваш пароль" required="required">
+          </div>
+          <input type="hidden" value="auth" name="func">
+          <input type="submit" name="send" value="Войти">
+          <p class="t_left">
+            <a href="#">Регистрация</a>
+            <a href="#">Забыли пароль ?</a>
+          </p>
+        </form>
+      </div>
+    </aside>
+  </section>
+  <footer><div>Какая-нибудь инфа</div></footer>
+</body>
+</html>
