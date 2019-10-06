@@ -28,7 +28,6 @@ header form {
 header form input[type="text"] {
   border: none;
   border-radius: 5px;
-  margin: 0;
   padding: 5px 0 5px 10px;
   width: 200px;
 }
@@ -201,8 +200,11 @@ footer div {
 
 @media (max-width: 440px)  {
   header {
-   height: 300px;
+   height: 250px;
    }
+  header nav {
+    margin-top: -10px;
+  }
 header nav ul {
   display: flex;
   flex-direction: column;
